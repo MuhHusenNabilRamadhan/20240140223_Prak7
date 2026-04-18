@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; /* Biru abu-abu muda [cite: 231] */
+  padding: 40px 20px;
+  margin: 0;
+}
+
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border-top: 8px solid #00796b; /* Aksen warna di bagian atas */
+}
+
+fieldset {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #00796b;
+  padding: 0 15px;
+  font-size: 1.2em;
+}
+
+/* Mempercantik tampilan input */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #004d40;
+}
+
+.back {
+  display: inline-flex;
+  margin-top: 20px;
+  background-color: #546e7a; /* Warna abu-abu kebiruan untuk tombol home */
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.back:hover {
+  background-color: #37474f;
+}
