@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulir Pertanyaan Tentang Kami</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Formulir Tentang Kami</legend>
+        <p>Nama: <input type="text" name="nama" style="width: 90%" /></p>
+
+        <p>
+          Jenis Kelamin:<br />
+          <input type="radio" name="jk" value="L" checked /> Laki-laki
+          <input type="radio" name="jk" value="P" /> Perempuan
+        </p>
+
+        <p>
+          Kota Asal:
+          <select name="kota">
+            <option>Semarang</option>
+            <option>Bandung</option>
+            <option>Yogyakarta</option>
+          </select>
+        </p>
+
+        <p>
+          Isi Pertanyaan Bro:<br />
+          <textarea
+            rows="5"
+            style="width: 95%"
+            placeholder="Tulis jawaban Anda..."
+          ></textarea>
+        </p>
+
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <a href="index.html" class="back">Home</a>
+    </form>
+  </body>
+</html>
